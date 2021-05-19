@@ -10,7 +10,7 @@ class BlogTests(TestCase):
             username='testuser1', 
             password='abc123'
         )
-        testuser1.save()
+
         test_blog = Blog.objects.create(
             author=testuser1, 
             title='Blog title', 

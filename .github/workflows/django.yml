@@ -25,4 +25,7 @@ jobs:
       run: |
         echo "hereee"
         echo "${{ secrets.HI }}"
+        echo "${{ secrets.test }}"
         echo "${{ env.test1 }}"
+        echo "======"
+        echo "${{ secrets.test1 }}"
